@@ -14,7 +14,7 @@ export function Confirmation() {
           Agora vamos começar a cuidar das suas plantinhas com muito condado.
         </Text>
         <View style={styles.footer}>
-          <Button />
+          <Button title="Começar" />
         </View>
       </View>
     </SafeAreaView>
@@ -55,6 +55,6 @@ const styles = StyleSheet.create({
   footer: {
     width: "100%",
     paddingHorizontal: 50,
-    marginTop: 20
+    marginTop: 20,
   },
 });
